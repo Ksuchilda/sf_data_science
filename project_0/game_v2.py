@@ -1,7 +1,10 @@
+"""Игра угадай число
+Компьютер сам загадывает и сам угадывает"""
+
 import numpy as np
 
-def random_predict(number:int=1) -> int:
-    """Рандомно угадываем число
+def fast_predict(number:int=1) -> int:
+    """Угадываем число половинным делением интервала
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -9,23 +12,29 @@ def random_predict(number:int=1) -> int:
     Returns:
         int: Число попыток
     """
-
+    # задаем начальные значения: счетчик попыток и интервал чисел угадывания
     count = 0
-
+    interval = [1, 100]
+    
+    # запускаем бесконечный цикл поиска загаданного числа
+    
     while True:
-        count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        
+        count += 1 # увеличиваем счетчик попыток
+        predict_number = (interval[0] + interval[1]) // 2 # предполагаемое число
         if number == predict_number:
             break # выход из цикла, если угадали
-    return(count)
+        elif number < predict_number:
+            interval = [1, predict_number]
+        else:
+            interval = [predict_number, 100]
+    return count
 
-print(f'Количество попыток: {random_predict()}')
-
-def score_game(random_predict) -> int:
+def score_game(fast_predict) -> int:
     """За какое количество попыток в среднем из 1000 подходов угадывает наш алгоритм
 
     Args:
-        random_predict ([type]): функция угадывания
+        fast_predict ([type]): функция угадывания
 
     Returns:
         int: среднее количество попыток
@@ -35,14 +44,15 @@ def score_game(random_predict) -> int:
     np.random.seed(1) # фиксируем сид для воспроизводимости
     random_array = np.random.randint(1, 101, size=(1000)) # загадали список чисел
 
+    # угадываем каждое число и формируем список из колличесва попыток
     for number in random_array:
-        count_ls.append(random_predict(number))
+        count_ls.append(fast_predict(number))
 
     score = int(np.mean(count_ls)) # находим среднее количество попыток
 
     print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
-    return(score)
+    return score
 
 # RUN
 if __name__ == '__main__':
-    score_game(random_predict)
+    score_game(fast_predict)
