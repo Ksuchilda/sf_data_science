@@ -4,7 +4,7 @@
 import numpy as np
 
 def fast_predict(number:int=1) -> int:
-    """Угадываем число половинным делением интервала
+    """Угадываем число делением интервала пополам
 
     Args:
         number (int, optional): Загаданное число. Defaults to 1.
@@ -21,13 +21,20 @@ def fast_predict(number:int=1) -> int:
     while True:
         
         count += 1 # увеличиваем счетчик попыток
-        predict_number = (interval[0] + interval[1]) // 2 # предполагаемое число
+        predict_number = (interval[0] + interval[1]) // 2 # предполагаемое число - середина интервала
+        
         if number == predict_number:
-            break # выход из цикла, если угадали
+            # выход из цикла, если угадали
+            break 
+        
+        # если предполагаемое число число меньше загаданного-меняем правую границу интервала на это число
         elif number < predict_number:
-            interval = [1, predict_number]
+            interval = [1, predict_number] 
+            
+        # если больше, то меняем левую границу           
         else:
             interval = [predict_number, 100]
+            
     return count
 
 def score_game(fast_predict) -> int:
@@ -51,6 +58,7 @@ def score_game(fast_predict) -> int:
     score = int(np.mean(count_ls)) # находим среднее количество попыток
 
     print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
+    
     return score
 
 # RUN
