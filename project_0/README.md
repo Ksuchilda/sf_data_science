@@ -32,6 +32,7 @@
 **Что практикуем**
 Учимся писать хороший код на Python
 
+:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/tree/main/project_0#оглавление)
 
 ### Краткая информация о данных
 ....
