@@ -1,4 +1,4 @@
-# **Проект 1. Анализ вакансий из HeadHunter**
+# **Проект 2. Анализ вакансий из HeadHunter**
 
 ## Оглавление
 [1. Описание проекта](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/hh_project_2/README.md#описание-проекта)
@@ -26,6 +26,7 @@
 
 ### Краткая информация о данных
 Исходные данные хранятся в схеме public базы данных project_sql
+
 :arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/hh_project_2/README.md#оглавление)
 
 
