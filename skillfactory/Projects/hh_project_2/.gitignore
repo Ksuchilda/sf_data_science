@@ -1,1 +1,10 @@
-hh_project_2\config.py
+# Игнорировать все файлы .log
+*.log
+
+# Игнорировать папку tmp/
+tmp/
+
+# Игнорировать все файлы в папке cache, кроме file.txt
+cache/*
+!cache/file.txt
+config.py
