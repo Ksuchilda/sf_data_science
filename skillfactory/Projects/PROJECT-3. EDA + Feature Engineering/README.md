@@ -3,7 +3,7 @@
 ## Оглавление
 [1. Описание проекта](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#описание-проекта)
 
-[2. Какой кейс решаем?](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA +Feature_Engineering/README.md#какой-кейс-решаем)
+[2. Какой кейс решаем?](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#какой-кейс-решаем)
 
 [3. Краткая информация о данных](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#краткая-информация-о-данных)
 
