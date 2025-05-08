@@ -1,0 +1,2 @@
+# Игнорировать только .csv в PROJECT-3
+/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering/data/*.csv
