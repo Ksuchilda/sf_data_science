@@ -1,34 +1,27 @@
 # **Проект 3. Предсказание рейтинга отеля на Booking**
 
 ## Оглавление
-[1. Описание проекта](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#описание-проекта)
+[1. Описание проекта](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#описание-проекта)
 
-[2. Какой кейс решаем?](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#какой-кейс-решаем)
+[2. Какой кейс решаем?](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA +Feature_Engineering/README.md#какой-кейс-решаем)
 
-[3. Краткая информация о данных](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#краткая-информация-о-данных)
+[3. Краткая информация о данных](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#краткая-информация-о-данных)
 
-[4. Этапы работы над проектом](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#этапы-работы-над-проектом)
+[4. Этапы работы над проектом](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#этапы-работы-над-проектом)
 
-[5. Результат](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#результаты)
+[5. Результат](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#результаты)
 
 ### Описание проекта
 Определить ключевые закономерности в данных и создать эффективную модель, способную предсказывать настоящий рейтинг отеля.
 
 
-:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#оглавление)
+:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#оглавление)
 
 
 ### Какой кейс решаем?
 Представим, что мы работаем дата-сайентистом в компании Booking. Одна из проблем компании — это нечестные отели, которые накручивают себе рейтинг. Одним из способов обнаружения таких отелей является построение модели, которая предсказывает рейтинг отеля. Если предсказания модели сильно отличаются от фактического результата, то, возможно, отель ведёт себя нечестно, и его стоит проверить.
 
-:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/ProjectsPROJECT-3. EDA + Feature Engineering
-/README.md#оглавление)
+:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#оглавление)
 
 
 ### Краткая информация о данных
@@ -59,9 +52,7 @@ https://disk.yandex.ru/d/EijHyTF_mVCy_w
 * lat — географическая широта отеля;
 * lng — географическая долгота отеля.
 
-:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#оглавление)
-
+:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#оглавление)
 
 ### Этапы работы над проектом
 Проект будет состоять из 8 частей:
@@ -94,13 +85,11 @@ https://disk.yandex.ru/d/EijHyTF_mVCy_w
 8. **Оценка модели**  
    Оценка качества модели с помощью метрики MAPE.
    
-:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#оглавление)
+:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#оглавление)
 
 
 ### Результаты
 В результате работы над проектом были исследованы данные об отзывах на Booking, проведен предварительный анализ данных, очистка данных от пропусков, проанализированы и преобразованы имеющиеся признаки, созданы новые информативные признаки из имеющихся, создана модель машинного обучения и оценена с помощью метрики MAPE.
 
-:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3. EDA + Feature Engineering
-/README.md#оглавление)
+:arrow_up:[к оглавлению](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#оглавление)
 
