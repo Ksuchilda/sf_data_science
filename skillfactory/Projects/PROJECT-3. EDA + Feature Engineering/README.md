@@ -1,15 +1,15 @@
 # **Проект 3. Предсказание рейтинга отеля на Booking**
 
 ## Оглавление
-[1. Описание проекта](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#описание-проекта)
+[1. Описание проекта](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.%20EDA%20+%20Feature%20Engineering/README.md#описание-проекта)
 
-[2. Какой кейс решаем?](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#какой-кейс-решаем)
+[2. Какой кейс решаем?](https://github.com/Ksuchilda/sf_data_science/tree/main/skillfactory/Projects/PROJECT-3.%20EDA%20%2B%20Feature%20Engineering#какой-кейс-решаем)
 
-[3. Краткая информация о данных](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#краткая-информация-о-данных)
+[3. Краткая информация о данных](https://github.com/Ksuchilda/sf_data_science/tree/main/skillfactory/Projects/PROJECT-3.%20EDA%20%2B%20Feature%20Engineering#краткая-информация-о-данных)
 
-[4. Этапы работы над проектом](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#этапы-работы-над-проектом)
+[4. Этапы работы над проектом](https://github.com/Ksuchilda/sf_data_science/tree/main/skillfactory/Projects/PROJECT-3.%20EDA%20%2B%20Feature%20Engineering#этапы-работы-над-проектом)
 
-[5. Результат](https://github.com/Ksuchilda/sf_data_science/blob/main/skillfactory/Projects/PROJECT-3.EDA+Feature_Engineering/README.md#результаты)
+[5. Результат](https://github.com/Ksuchilda/sf_data_science/tree/main/skillfactory/Projects/PROJECT-3.%20EDA%20%2B%20Feature%20Engineering#результаты)
 
 ### Описание проекта
 Определить ключевые закономерности в данных и создать эффективную модель, способную предсказывать настоящий рейтинг отеля.
